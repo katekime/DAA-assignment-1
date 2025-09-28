@@ -4,13 +4,13 @@ import org.example.Closestpair;
 
 public class Main {
     public static void main(String[] args) {
-        Closestpair.Point[] pts = new Closestpair.Point[] {
-                new Closestpair.Point(2, 3),
-                new Closestpair.Point(12, 30),
-                new Closestpair.Point(40, 50),
-                new Closestpair.Point(5, 1),
-                new Closestpair.Point(12, 10),
-                new Closestpair.Point(3, 4)
+        Point[] pts = new Point[] {
+                new Point(2, 3),
+                new Point(12, 30),
+                new Point(40, 50),
+                new Point(5, 1),
+                new Point(12, 10),
+                new Point(3, 4)
         };
 
         Closestpair solver = new Closestpair();
